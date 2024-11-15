@@ -1,0 +1,338 @@
+@import url(https://db.onlinewebfonts.com/c/f8deb3c1a029ec56b15bb462c1518f07?family=Snell+Roundhand+W01+Script);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+
+
+nav {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+
+}
+
+nav .navleft {
+  width: 50%;
+}
+
+nav .navleft span {
+  font-size: 1.7rem;
+  letter-spacing: 3.5px;
+}
+
+nav .navleft span a {
+  font-size: 25px;
+  position: relative;
+  color: black;
+}
+
+nav .navright {
+  width: 50%;
+}
+
+nav .navright a {
+  padding-inline: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+svg {
+  position: relative;
+  top: -2px;
+  margin-inline: 8px;
+}
+
+.herosection {
+  width: 100%;
+  height: 85vh;
+}
+
+.herosection .leftsec {
+  width: 50%;
+  height: inherit;
+  float: left;
+}
+
+.herosection .leftsec img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.herosection .rightsec {
+  width: 50%;
+  height: inherit;
+  background-color: #D5EAEC;
+  float: right;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+h2 {
+  font-weight: 400;
+  word-spacing: 1px;
+
+}
+
+h3 {
+  font-family: "Snell Roundhand W01 Script";
+  font-size: 30px;
+  font-weight: 100;
+}
+
+h6 {
+  font-weight: 400;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+.herosection .rightsec span {
+  font-size: 100px;
+  line-height: 105px;
+}
+
+.herosection .rightsec button {
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+  background-color: #F8A888;
+
+}
+
+main {
+  width: 100%;
+  padding-inline: 12%;
+  /* padding-block: 5%; */
+
+
+}
+
+section {
+  padding-inline: 15%;
+}
+
+.ankit {
+  width: 100%;
+  height: 379px;
+  display: flex;
+  padding: 6%;
+
+}
+
+.ankit .on {
+  width: 50%;
+  height: inherit;
+  object-fit: cover;
+  position: relative;
+
+}
+
+.ankit .off {
+  width: 50%;
+  height: inherit;
+  object-fit: cover;
+  margin-left: 7%;
+}
+
+.info {
+  width: 280px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 21%;
+  left: 26.2%;
+  text-align: center;
+  background-color: white;
+}
+
+article {
+  padding-inline: 16%;
+}
+
+.three {
+  width: 100%;
+  height: auto;
+  margin-top: 20%;
+  display: flex;
+}
+
+.three .lt {
+  width: 50%;
+  height: 280px;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start !important;
+
+}
+
+.three .rt {
+  width: 50%;
+  height: 400px;
+  padding-left: 8%;
+
+
+}
+
+.poster {
+  background-color: #CCEAEA;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+
+
+}
+#iq{
+  height: 670px;
+}
+
+#ff {
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 3px;
+  position: relative;
+  text-decoration: underline;
+  top: -50px;
+}
+.two{
+  width: 100%;
+  display: flex;
+  
+  
+}
+#right{
+  margin-left: 15%;
+  margin-top: 16%;
+  background-color: #F5E5D6;
+}
+#iqq{
+  position: relative;
+  top: -70px;
+  width: 43%;
+  background-color: white;
+  border: 5px solid black;
+}
+.foo {
+  text-align: center;
+  padding: 2rem;
+}
+
+.foo .gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.foo .gallery img {
+  width: 362px;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.foo .gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.foo .subscribe-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.foo form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.foo input[type="email"] {
+  padding: 0.5rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+.foo input[type="email"]:focus {
+  border-color: #ff6b6b;
+  outline: none;
+
+
+}
+
+
+.foo .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.foo .subscribe-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ff6b6b;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.foo .subscribe-btn:hover {
+  background-color: #e85a5a;
+}
+
+.foo .social-icons {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #555;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.foo .social-icons a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.foo .social-icons a:hover {
+  color: #ff6b6b;
+}
+
+.foo .copyright {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
